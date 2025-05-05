@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+    color: white;
+}
+
+
+body{
+    background-color: #1a1a1a;
+}
+
+.home {
+    background-color: black;
+    padding-top: 30px;
+
+    & .logo {
+        width: 220px;
+        margin: auto;
+    }
+
+    & .conteiner {
+
+        max-width: 1260px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & .content {
+            width: 550px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+
+& p:last-child{
+    color: aqua;
+}
+
+            & h1 {
+                font-size: 48px;
+
+                & span {
+                    color: aqua;
+                }
+            }
+& .descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    & a{
+        width: 170px;
+        padding: 10px 20px;
+        border-radius: 100px;
+        background-color: aqua;
+        text-decoration: none;
+    }
+}
+        }
+
+    }
+}
+
+
+.personagens{
+    max-width: 1260px;
+    margin: auto;
+    padding-top: 120px;
+     
+    & h2{
+        margin-bottom: 35px;
+    }
+
+& .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+
+& .card{
+    width: 294px;
+    background-color: #1a1a1a;
+    border: #86868670 1px solid;
+    border-radius: 16px;
+    padding: 16px;
+    padding-bottom: 72px;
+    
+    
+    &  header{
+        margin-bottom: 19px;
+        & img{
+            width: 262px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 16px;
+            margin-bottom: 16px;
+        }
+    }
+    
+    & .content{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        & .status{
+            width: 144px;
+            display: flex;
+            gap: 4px;
+        }
+    }
+}
+}
+}
+
+
+.carregar-mais{
+    width: 231px;
+    margin: auto;
+    margin-top: 71px;
+    margin-bottom: 79px;
+    & button{
+        width: 231px;
+        padding: 15px;
+        border-radius: 100px;
+        border: none;
+        background-color: aquamarine;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
